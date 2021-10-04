@@ -4,7 +4,7 @@ defmodule Wabanex.Repo.Migrations.CreateUsersTable do
   def change do
     create table(:users) do
       add :email, :string
-      add :nome, :string
+      add :name, :string
       add :password, :string
 
       timestamps()
