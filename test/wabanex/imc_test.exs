@@ -10,7 +10,7 @@ defmodule Wabanex.IMCTest do
       response = IMC.calculate(params)
 
       assert "banana" == response
-      # esse teste acima precisa ser revisado, deu erro de argumento!
+      # esse teste acima precisa ser revisado, deu erro de argumento! (revisei umas 50x e não achei algo errado)
     end
 
     test "when the wrong filename is given, returns an error" do
